@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}#writing{word-wrap:break-word}#wrapper{position:fixed;top:20px;left:50%;transform:translateX(-50%);width:200px;height:200px}@media (max-width:500px){#writing{overflow:auto;height:50vh}#wrapper{left:50%;transform:translateX(-100px)}#main,#wrapper{position:relative}}@keyframes run{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+/*# sourceMappingURL=style.d94c1925.css.map */
