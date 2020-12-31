@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#writing {
+    word-wrap: break-word;
+}
+
+#wrapper {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px
+}
+
+@media (max-width: 500px) {
+    #writing {
+        overflow: auto;
+        height: 50vh;
+    }
+    #wrapper {
+        position: relative;
+        left: 50%;
+        transform: translateX(-100px);
+    }
+    #main {
+        position: relative;
+    }
+}
+
+@keyframes run {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
